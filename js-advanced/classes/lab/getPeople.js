@@ -1,0 +1,10 @@
+const Person = require("./Person");
+
+function getPeople(){
+    let person1 = new Person('Anna', 'Simpson', 22, 'anna@yahoo.com');
+    let person2 = new Person('SoftUni');
+    let person3 = new Person('Stephan', 'Johnson', 25);
+    let person4 = new Person('Gabriel', 'Peterson', 24, 'g.p@gmail.com');
+
+    return [person1, person2, person3, person4];
+}
